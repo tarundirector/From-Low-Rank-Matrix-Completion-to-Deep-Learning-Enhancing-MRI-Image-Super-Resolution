@@ -1,0 +1,143 @@
+train dataset: size=10040
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+val dataset: size=960
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+model: #params=1.6M
+epoch 1/1000, train: loss=0.1114, val: psnr=22.3332, 10.4m 10.4m/172.8h
+epoch 2/1000, train: loss=0.0618, val: psnr=26.2486, 10.4m 20.7m/172.8h
+epoch 3/1000, train: loss=0.0503, val: psnr=26.8215, 10.4m 31.1m/172.8h
+epoch 4/1000, train: loss=0.0468, val: psnr=27.0188, 10.4m 41.5m/172.8h
+epoch 5/1000, train: loss=0.0461, val: psnr=27.0929, 10.4m 51.8m/172.8h
+epoch 6/1000, train: loss=0.0428, val: psnr=27.2256, 10.4m 1.0h/172.8h
+epoch 7/1000, train: loss=0.0431, val: psnr=27.2663, 10.4m 1.2h/172.8h
+epoch 8/1000, train: loss=0.0423, val: psnr=27.4642, 10.4m 1.4h/172.8h
+epoch 9/1000, train: loss=0.0399, val: psnr=27.6575, 10.4m 1.6h/172.8h
+epoch 10/1000, train: loss=0.0398, val: psnr=27.7225, 10.4m 1.7h/172.8h
+epoch 11/1000, train: loss=0.0390, val: psnr=27.8689, 10.4m 1.9h/172.8h
+epoch 12/1000, train: loss=0.0383, val: psnr=27.8358, 10.4m 2.1h/172.8h
+epoch 13/1000, train: loss=0.0375, val: psnr=28.0365, 10.4m 2.2h/172.7h
+epoch 14/1000, train: loss=0.0368, val: psnr=27.8907, 10.3m 2.4h/172.7h
+epoch 15/1000, train: loss=0.0365, val: psnr=28.1376, 10.4m 2.6h/172.7h
+epoch 16/1000, train: loss=0.0359, val: psnr=28.2145, 10.4m 2.8h/172.7h
+epoch 17/1000, train: loss=0.0352, val: psnr=28.2696, 10.4m 2.9h/172.7h
+epoch 18/1000, train: loss=0.0349, val: psnr=28.2291, 10.3m 3.1h/172.7h
+epoch 19/1000, train: loss=0.0347, val: psnr=28.3757, 10.4m 3.3h/172.7h
+epoch 20/1000, train: loss=0.0344, val: psnr=28.3805, 10.4m 3.5h/172.7h
+epoch 21/1000, train: loss=0.0343, val: psnr=28.3863, 10.3m 3.6h/172.7h
+epoch 22/1000, train: loss=0.0339, val: psnr=28.4376, 10.4m 3.8h/172.7h
+epoch 23/1000, train: loss=0.0335, val: psnr=28.4919, 10.3m 4.0h/172.6h
+epoch 24/1000, train: loss=0.0330, val: psnr=28.4937, 10.3m 4.1h/172.6h
+epoch 25/1000, train: loss=0.0331, val: psnr=28.5400, 10.3m 4.3h/172.6h
+epoch 26/1000, train: loss=0.0326, val: psnr=28.5398, 10.3m 4.5h/172.6h
+epoch 27/1000, train: loss=0.0328, val: psnr=28.5601, 10.3m 4.7h/172.6h
+epoch 28/1000, train: loss=0.0320, val: psnr=28.6311, 10.3m 4.8h/172.6h
+epoch 29/1000, train: loss=0.0325, val: psnr=28.6459, 10.3m 5.0h/172.6h
+epoch 30/1000, train: loss=0.0322, val: psnr=28.6237, 10.3m 5.2h/172.6h
+epoch 31/1000, train: loss=0.0316, val: psnr=28.7181, 10.3m 5.3h/172.6h
+epoch 32/1000, train: loss=0.0319, val: psnr=28.7136, 10.3m 5.5h/172.6h
+epoch 33/1000, train: loss=0.0317, val: psnr=28.7600, 10.3m 5.7h/172.6h
+epoch 34/1000, train: loss=0.0309, val: psnr=28.7290, 10.4m 5.9h/172.6h
+epoch 35/1000, train: loss=0.0314, val: psnr=28.7917, 10.4m 6.0h/172.6h
+epoch 36/1000, train: loss=0.0314, val: psnr=28.7886, 10.3m 6.2h/172.6h
+epoch 37/1000, train: loss=0.0312, val: psnr=28.8193, 10.4m 6.4h/172.6h
+epoch 38/1000, train: loss=0.0308, val: psnr=28.8553, 10.4m 6.6h/172.6h
+epoch 39/1000, train: loss=0.0308, val: psnr=28.8449, 10.4m 6.7h/172.6h
+epoch 40/1000, train: loss=0.0310, val: psnr=28.8505, 10.4m 6.9h/172.6h
+epoch 41/1000, train: loss=0.0297, val: psnr=28.8941, 10.4m 7.1h/172.6h
+epoch 42/1000, train: loss=0.0294, val: psnr=28.8902, 10.4m 7.2h/172.6h
+epoch 43/1000, train: loss=0.0298, val: psnr=28.9051, 10.4m 7.4h/172.6h
+epoch 44/1000, train: loss=0.0296, val: psnr=28.8992, 10.4m 7.6h/172.6h
+epoch 45/1000, train: loss=0.0295, val: psnr=28.9072, 10.4m 7.8h/172.6h
+epoch 46/1000, train: loss=0.0296, val: psnr=28.9043, 10.4m 7.9h/172.6h
+epoch 47/1000, train: loss=0.0294, val: psnr=28.9341, 10.4m 8.1h/172.6h
+epoch 48/1000, train: loss=0.0294, val: psnr=28.9459, 10.4m 8.3h/172.6h
+epoch 49/1000, train: loss=0.0294, val: psnr=28.9351, 10.4m 8.5h/172.6h
+epoch 50/1000, train: loss=0.0292, val: psnr=28.9357, 10.4m 8.6h/172.6h
+train dataset: size=10040
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+val dataset: size=960
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+model: #params=1.6M
+epoch 51/1000, train: loss=0.0288, val: psnr=28.9522, 11.3m 11.3m/179.1h
+epoch 52/1000, train: loss=0.0288, val: psnr=28.9465, 11.3m 22.6m/178.7h
+epoch 53/1000, train: loss=0.0288, val: psnr=28.9243, 11.3m 33.8m/178.5h
+epoch 54/1000, train: loss=0.0287, val: psnr=28.9284, 11.3m 45.1m/178.4h
+epoch 55/1000, train: loss=0.0287, val: psnr=28.9532, 11.3m 56.3m/178.4h
+epoch 56/1000, train: loss=0.0287, val: psnr=28.9718, 11.3m 1.1h/178.4h
+epoch 57/1000, train: loss=0.0287, val: psnr=28.9674, 11.3m 1.3h/178.4h
+epoch 58/1000, train: loss=0.0286, val: psnr=28.9547, 11.3m 1.5h/178.4h
+epoch 59/1000, train: loss=0.0287, val: psnr=28.9591, 11.3m 1.7h/178.3h
+epoch 60/1000, train: loss=0.0287, val: psnr=28.9515, 11.3m 1.9h/178.3h
+epoch 61/1000, train: loss=0.0285, val: psnr=28.9582, 11.3m 2.1h/178.3h
+epoch 62/1000, train: loss=0.0286, val: psnr=28.9712, 11.2m 2.3h/178.3h
+epoch 63/1000, train: loss=0.0285, val: psnr=28.9680, 11.3m 2.4h/178.3h
+epoch 64/1000, train: loss=0.0285, val: psnr=28.9432, 11.3m 2.6h/178.3h
+epoch 65/1000, train: loss=0.0284, val: psnr=28.9513, 11.2m 2.8h/178.3h
+epoch 66/1000, train: loss=0.0285, val: psnr=28.9469, 11.2m 3.0h/178.3h
+train dataset: size=10040
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+val dataset: size=960
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+model: #params=1.6M
+epoch 67/1000, train: loss=0.0281, val: psnr=28.9645, 11.3m 11.3m/175.7h
+epoch 68/1000, train: loss=0.0281, val: psnr=28.9726, 11.3m 22.6m/175.6h
+epoch 69/1000, train: loss=0.0281, val: psnr=28.9558, 11.3m 33.8m/175.5h
+epoch 70/1000, train: loss=0.0281, val: psnr=28.9609, 11.3m 45.1m/175.5h
+epoch 71/1000, train: loss=0.0281, val: psnr=28.9611, 11.3m 56.4m/175.5h
+train dataset: size=10040
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+val dataset: size=960
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+model: #params=1.6M
+epoch 72/1000, train: loss=0.0280, val: psnr=28.9682, 10.8m 10.8m/166.5h
+epoch 73/1000, train: loss=0.0280, val: psnr=28.9616, 10.7m 21.4m/165.7h
+epoch 74/1000, train: loss=0.0280, val: psnr=28.9640, 10.7m 32.1m/165.5h
+epoch 75/1000, train: loss=0.0280, val: psnr=28.9650, 10.6m 42.7m/165.3h
+epoch 76/1000, train: loss=0.0280, val: psnr=28.9601, 10.7m 53.4m/165.3h
+train dataset: size=10040
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+val dataset: size=960
+  inp: shape=(3, 64, 64)
+  coord: shape=(65536, 2)
+  cell: shape=(65536, 2)
+  gt: shape=(65536, 3)
+model: #params=1.6M
+epoch 77/1000, train: loss=0.0280, val: psnr=28.9617, 12.2m 12.2m/188.6h
+epoch 78/1000, train: loss=0.0280, val: psnr=28.9668, 12.2m 24.4m/188.2h
+epoch 79/1000, train: loss=0.0280, val: psnr=28.9590, 12.2m 36.6m/188.0h
+epoch 80/1000, train: loss=0.0280, val: psnr=28.9610, 12.2m 48.8m/187.9h
+epoch 81/1000, train: loss=0.0280, val: psnr=28.9604, 12.2m 1.0h/187.8h
+epoch 82/1000, train: loss=0.0280, val: psnr=28.9669, 12.2m 1.2h/187.7h
+epoch 83/1000, train: loss=0.0280, val: psnr=28.9636, 12.2m 1.4h/187.7h
+epoch 84/1000, train: loss=0.0280, val: psnr=28.9654, 12.1m 1.6h/187.6h
+epoch 85/1000, train: loss=0.0280, val: psnr=28.9636, 12.2m 1.8h/187.6h
+epoch 86/1000, train: loss=0.0280, val: psnr=28.9630, 12.2m 2.0h/187.6h
+epoch 87/1000, train: loss=0.0280, val: psnr=28.9646, 12.2m 2.2h/187.6h
+epoch 88/1000, train: loss=0.0280, val: psnr=28.9659, 12.2m 2.4h/187.6h

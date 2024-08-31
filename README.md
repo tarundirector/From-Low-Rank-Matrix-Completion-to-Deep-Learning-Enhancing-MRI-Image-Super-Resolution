@@ -19,6 +19,9 @@ To reproduce the experiments, set up Google Colab with the following libraries:
 - `tqdm`
 - `tensorboardX`
 - `torchmetrics`
+- `cv2` (OpenCV)
+- `scipy.ndimage` (from SciPy)
+- `torch` (PyTorch) 
 
 #### 🧩 Low-Rank Approach
 - **Environment**: Conducted on a high RAM CPU environment in Google Colab.
